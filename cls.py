@@ -27,6 +27,7 @@ def tst():
     pts.eating()
     print(type(pts))
 
+
 def main():
     tst()
 
