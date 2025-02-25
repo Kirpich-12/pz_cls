@@ -1,9 +1,10 @@
 #We write code to try classes
 #============================
 
+
 class Birds:
 
-    def __init__(self, name, flying_ability, size):
+    def __init__(self, name:str, flying_ability:bool, size:int):
         self.name = name
         self.flying_ability = flying_ability
         self.size = size
@@ -24,5 +25,10 @@ class Birds:
 def tst():
     pts = Birds('Petux', False, 15)
     pts.eating()
+    print(type(pts))
 
-tst()
+def main():
+    tst()
+
+if __name__ == '__main__':
+    main()
